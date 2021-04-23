@@ -1,0 +1,1 @@
+PUT http://localhost:2000/lital/user/updateuser/6 {"dd":'ddeodeji'}
