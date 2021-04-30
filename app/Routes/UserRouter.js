@@ -3,6 +3,8 @@ const router = express.Router();
 
 var User = require("../controller/userController");
 
+//get all users
+router.get("/getall",User.getall)
 // Add product
 router.post("/registre", User.registre);
 
